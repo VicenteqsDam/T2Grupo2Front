@@ -7,7 +7,7 @@ import {User} from '../../_models/user';
 @Injectable()
 export class UserService {
 
-  public API = 'http://localhost:8080';
+  public API = 'http://localhost:8787';
   public CAR_API = this.API + '/user';
 
   constructor(private http: HttpClient, private authenticationService: AuthenticationService) {
